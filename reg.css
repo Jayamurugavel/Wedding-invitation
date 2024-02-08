@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,ul,li{
+    
+    display: inline;
+}
+ul{
+    margin-left: 76%;
+    cursor: pointer;
+}
+.box1{
+    padding: 10px;
+    /*background-color: red;*/
+    padding-bottom: 5px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    
+}
+li{
+    color: black;
+}
+li:hover{
+    color: white;
+}
+/*top head ithu varaiku*/
+
+input[ type=text] 
+,select {
+   
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 100%;
+    background-color:rgb(244, 61, 76);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color:rgb(254, 47, 47);
+  }
+  .register{
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    
+    
+border-radius: 50px;
+  background-color:pink;
+  padding: 20px;
+  padding-top: 0;
+}
+.about{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+.contact{
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    text-align:start
+
+}
+.concenter{
+    margin-left: 4%;
+    font-variant-caps: all-petite-caps
+}
+/*background color*/
+.box1{
+    
+    background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url(ritual-with-coconut-leaves-during-traditional-hindu-wedding-ceremony.jpg);
+}
+.register{
+    
+    background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url(ritual-with-coconut-leaves-during-traditional-hindu-wedding-ceremony.jpg);
+                border-style: solid;
+                border-width: 8px;
+                border-color: black;
+}
+.box2{
+    padding: 0.2px;
+    background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url(kanika-pant-PiuvhBTvrp0-unsplash.jpg);
+                padding-bottom: 5px;
+    
+}
+.about{
+    
+    background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url(pexels-isabelle-taylor-1447367.jpg);
+}
+.contact{
+    
+    background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url(ritual-with-coconut-leaves-during-traditional-hindu-wedding-ceremony.jpg);
+}
+.p6{
+    color: rgb(233, 225, 231);
+    animation: glow 1s infinite alternate;
+}
+@keyframes glow{
+    from{
+        text-shadow: 0 0 10px pink,0 0 20px pink,0 0 30px pink;
+
+    }
+    to{
+        text-shadow: 0 0 20px pink,0 0 30px pink,0 0 40px pink;
+    }
+}

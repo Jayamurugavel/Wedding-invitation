@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav{
+    
+    padding: 15px;
+    padding-bottom: 2px;
+}
+h1,ul,li{
+    display: inline;
+}
+ul{
+    margin-left: 76.7%;
+    cursor: pointer;
+}
+li{
+    color: black;
+}
+li:hover{
+    color:white;
+}
+
+/*input{
+    width: 15%;
+
+    padding: 5px;
+    border: 2px;
+    border-radius: 30px;
+    background-color: rgb(255, 239, 242);
+    border-style:solid;
+    border-image: url(pexels-isabelle-taylor-1447367.jpg)20 round;
+    border-color: black;
+    
+}
+/*.search{
+    padding: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align:left;
+    background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url(ritual-with-coconut-leaves-during-traditional-hindu-wedding-ceremony.jpg);
+    
+    
+
+}*/
+
+
+.sent1{
+    padding-top: 0;
+    padding-bottom:10px;
+    border-style: solid;
+    border-top: 1px;
+    border-color: black;
+    
+    
+    
+}
+
+
+.food{
+border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    display: inline-block; 
+    width: 260px;  
+    cursor: pointer;
+}
+.items{
+    margin-left: 0%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /*padding: 4%;*/
+    text-align: center;
+    
+    
+    
+}
+.dance{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    display: inline-block; 
+    width: 380px;  
+    cursor: pointer;
+    
+}
+.song{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    display: inline-block; 
+    width: 320px;  
+    cursor: pointer;
+}
+.Mugurtham{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    display: inline-block; 
+    width: 300px;  
+    cursor: pointer;
+}
+.dance:hover{
+    background-color: pink;
+    color: red;
+}
+.food:hover{
+    background-color: pink;
+    color: red;
+}
+.song:hover{
+    background-color: pink;
+    color: red;
+}
+.Mugurtham:hover{
+    background-color: pink;
+    color: red;
+}
+
+.lin2{
+    border-style: double;
+    border-width: 9px;
+    border-color: pink;
+}
+
+.register{
+    margin-top: 1px;
+    text-align: center;
+    padding: 20px;
+}
+.button{
+    background-color: rgba(0, 0, 0, 0.851);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px 40px;
+    text-decoration: none;
+}
+.button:hover{
+    color: white;
+
+}
+
+.contact{
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+.concenter{
+    margin-left: 4%;
+    font-variant-caps: all-petite-caps;
+}
+
+
+
+.sent1{
+    font-weight: bolder;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(pexels-isabelle-taylor-1447367.jpg);
+}
+
+.items{
+
+    background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url(ritual-with-coconut-leaves-during-traditional-hindu-wedding-ceremony.jpg);
+}
+.register{
+    background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url(pexels-isabelle-taylor-1447367.jpg);
+}
+.contact{
+    background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url(ritual-with-coconut-leaves-during-traditional-hindu-wedding-ceremony.jpg);
+}
+nav{
+    background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url(ritual-with-coconut-leaves-during-traditional-hindu-wedding-ceremony.jpg);
+}
+nav{
+    border-bottom:black;
+    border-width: 2px;
+    border-style: solid;
+}
+.p1,.p2,.p3,.p4{
+    font-style: italic;
+    font-weight: bold;
+}
+.sent1{
+    color: rgb(247, 35, 183);
+    animation: glow 1s infinite alternate;
+}
+@keyframes glow{
+    from{
+        text-shadow: 0 0 10px pink,0 0 20px pink,0 0 30px pink;
+
+    }
+    to{
+        text-shadow: 0 0 20px pink,0 0 30px pink,0 0 40px pink;
+    }
+}
